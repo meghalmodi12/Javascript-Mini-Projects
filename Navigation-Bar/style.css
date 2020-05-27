@@ -1,0 +1,94 @@
+@font-face {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  margin: 0px !important;
+  font-family: Roboto;
+}
+
+.appname {
+  display: block;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.applink {
+  cursor: pointer;
+  display: inline-block !important;
+}
+
+.applink div {
+  float: left;
+}
+
+.applink img {
+  height: 25px;
+  width: 25px;
+}
+
+.applink span {
+  display: block;
+  font-size: 17px;
+  margin-top: 4px;
+  margin-left: 10px;
+}
+
+.username {
+  font-size: 20px;
+}
+
+.territory {
+  font-style: italic;
+  font-size: 15px;
+}
+
+.email {
+  font-style: italic;
+  font-size: 15px;
+}
+
+.sideBarButton {
+  background-color: transparent;
+  background-repeat:no-repeat;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 10px 0px;
+  padding: 3px 10px;
+  width: 150px;
+}
+
+.sideBarButton:focus {
+    outline:none !important;
+}
+
+.logout {
+  border: 2px solid red;
+  color: red;
+  width: 100px;
+}
+
+.logout:hover {
+  background: red;
+  color: white;
+}
+
+.exportToExcel {
+  border: 2px solid green;
+  color: green;
+}
+
+.exportToExcel:hover  {
+  background: green;
+  color: white;
+}
+
+.exportToPDF {
+  border: 2px solid red;
+  color: red;
+}
+
+.exportToPDF:hover {
+  background: red;
+  color: white;
+}
